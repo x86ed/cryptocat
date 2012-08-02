@@ -169,10 +169,12 @@ input.create:active, #talk:active {
 	height: 343px;
 	overflow: hidden;
 	margin: 0 auto 10px auto;
+	position:relative;
 }
 #chat {
 	padding: 5px 0px 0px 0px;
-	width: 102.6%;
+	width: 100%;
+	position:relative;
 	height: 340px;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -251,7 +253,7 @@ a, input.create:hover, #talk:hover, #maximize, #sound, #notifications, #file, #i
 div.msg, div.gsm, div.bsg {
 	padding: 8px 2px 8px 25px;
 	background-color: #D8EDF8;
-	width: 98%;
+	width: 100%;
 	word-wrap: break-word;
 	background-repeat: no-repeat;
 	background-image: url("../img/chat.png");
